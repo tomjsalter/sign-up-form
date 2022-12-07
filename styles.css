@@ -6,11 +6,7 @@
 
 body {
     display: flex;
-    flex-direction: row;
-}
-
-figure > img {
-    width: 30vw;
-    height: 100vh;
+    flex-direction: column;
+    background-image: url(/images/conference_talk.jpg);
     object-fit: cover;
 }
