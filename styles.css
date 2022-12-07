@@ -82,6 +82,14 @@ input:focus {
     box-shadow: inset 0px 0px 6px 2px rgba(0, 0, 0, 0.099);
 }
 
+input:valid {
+    border-color: limegreen;
+}
+
+input:invalid {
+    border-color: crimson;
+}
+
 button {
     width: 210px;
     height: 40px;
